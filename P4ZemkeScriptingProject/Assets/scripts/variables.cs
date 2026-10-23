@@ -5,25 +5,28 @@ using UnityEngine;
 public class variables : MonoBehaviour
 {
 
-    int myInt = 36;s
+    int myInt = 36; 
 
     // Start is called before the first frame update
     void Start()
     {
         myInt = MultiplyByTwo(myInt);
-        Debug.Log (myInt);
+        Debug.Log(myInt);
     }
+
+
     int MultiplyByTwo(int number)
     {
-        myInt result;
+        int result;
         result = number * 2;
         return result;
     }
 
-// Update is called once per frame
-void Update()
+    // Update is called once per frame
+    void Update()
     {
-        
+
     }
 
-//thisis a function
+    //thisis a function
+}
