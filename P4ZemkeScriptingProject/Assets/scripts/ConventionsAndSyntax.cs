@@ -15,14 +15,15 @@ public class ConventionsAndSyntax : MonoBehaviour
     void Update()
     {
         //this if statement will check the hight of my ngame object.
-        if (transform.position.y<=5f)
+        if (transform.position.y <= 5f)
         {
             Debug.Log("I am about to hit the ground");
+        }
+        else
+        {
+
+            Debug.Log("I am still in the air");
 
         }
-        else 
     }
-    Debug.Log("I am still in the air");
-{
 }
-        {
